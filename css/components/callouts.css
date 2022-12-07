@@ -38,16 +38,16 @@
   margin: 0;
 }
 .dishes div:first-of-type {
-  background-image: url("/snack/assets/images/toast-min.jpg");
+  background-image: url("/assets/images/toast-min.jpg");
   background-size: cover;
 }
 .dishes div:nth-of-type(2) {
-  background-image: url("/snack/assets/images/tacos-min.jpg");
+  background-image: url("/assets/images/tacos-min.jpg");
   background-size: cover;
   background-position: bottom;
 }
 .dishes div:last-of-type {
-  background-image: url("/snack/assets/images/steak-min.jpg");
+  background-image: url("/assets/images/steak-min.jpg");
   background-size: cover;
   background-position: center;
 }

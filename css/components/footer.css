@@ -53,7 +53,7 @@ section.footer .address-group{
   display: flex;
   letter-spacing: 1px;
 }
-section.footer .address-group .material-icons{
+section.footer .address-group .material-symbols-outlined{
   margin-top: 5px;
 }
 .social-links{

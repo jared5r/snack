@@ -16,7 +16,7 @@ h4.subtitle{
 }
 .hours {
   background: var(--overlay);
-  background-image: url("/snack/assets/images/dinner-table.jpg");
+  background-image: url("/assets/images/dinner-table.jpg");
   background-blend-mode: multiply;
   background-size: cover;
   background-position: center;
