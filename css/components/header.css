@@ -30,7 +30,7 @@ header{
 .header-phone{
   font-size: 2rem;
   display: flex;
-  align-items: center;
+  align-items: end;
   height: 32px;
 }
 @media (prefers-color-scheme: dark) {
