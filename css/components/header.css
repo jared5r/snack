@@ -1,0 +1,41 @@
+header{
+  background-color: var(--background-dark);
+  color: var(--text-white);
+  -webkit-box-shadow: var(--box-shadow-light);
+	box-shadow: var(--box-shadow-light);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 10;
+}
+.brand-logo{
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+  min-width: 200px;
+  font-family: 'Alice', serif;
+}
+.brand-logo::before{
+  content: '';
+  background-image: url(/snack/assets/svg/logo.svg);
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-repeat: no-repeat;
+}
+.header-phone{
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  height: 32px;
+}
+@media (prefers-color-scheme: dark) {
+  header{
+    background-color: hsl(var(--black));
+    color: var(--text-white);
+  }
+}

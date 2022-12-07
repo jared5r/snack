@@ -1,0 +1,59 @@
+.hero-banner{
+  height: 30vw;
+  min-height: 325px;
+  background: var(--overlay);
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.hero-banner .hero-content{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ color: var(--text-white);
+  text-shadow: 2px 2px 5px hsl(var(--black));
+}
+.hero-banner .hero-content h1, .hero-banner .hero-content h2{
+  color: inherit;
+}
+.hero-banner .hero-content h2{
+  font-size: 2.5rem;
+}
+a[class*='btn']{
+  text-shadow: none !important;
+  background: var(--btn-primary);
+ color: var(--text-black) !important;
+  font-weight: 900;
+  letter-spacing: 1px;
+  font-size: 1.2rem;
+}
+a[class*='btn']:hover{
+  background: var(--btn-hover);
+  color: var(--text-white) !important;
+}
+a[class*='btn'] i{
+  color: inherit;
+}
+
+@media(max-width: 388px){
+  .hero-banner .hero-content h1{
+    font-size: 3.2rem;
+  }
+}
+@media (max-width: 480px){
+  .hero-banner .hero-content h2{
+    font-size: 2rem;
+  }
+}
+@media (max-width: 800px){
+  .hero-banner .hero-content{
+    margin-top: 5vw;
+  }
+}
+@media (min-width: 1020px){
+  .hero-banner .hero-content{
+    justify-content: space-evenly;
+  }
+}
